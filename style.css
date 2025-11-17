@@ -343,3 +343,35 @@ header.masthead a {
 #portfolio .container-fluid .row .portfolio-box.clock {
   background: url('images/Clock.png') center/cover;
 }
+
+#portfolio .container-fluid .row {
+  justify-content: center;
+}
+
+.resh1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #00bcd4;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.resp {
+  font-size: 1.1rem;
+  color: #e0e0e0;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  line-height: 1.6;
+  text-align: left;
+}
+.resp::before {
+  content: "";
+  display: block;
+  margin-top: 10px;
+}
+
